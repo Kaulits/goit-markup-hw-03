@@ -99,7 +99,7 @@ body {
 
 }
 
-.logo-header {
+.logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -108,7 +108,6 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 
@@ -122,6 +121,7 @@ body {
 .nav-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact-list {
@@ -345,10 +345,11 @@ display: flex;
 gap: 24px;
 }
 
-.marketing-cards {
-    max-width: 264px;
-    gap: 8px;
-} 
+
+.marketing-item {
+    width: calc((100% - 72px) / 4);
+
+}
 
 /* ========/SECTION-MARKETING======== */
 
@@ -397,6 +398,7 @@ gap: 24px;
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .team-item-title {
@@ -424,7 +426,6 @@ gap: 24px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-border {
@@ -454,16 +455,8 @@ color: #F4F4FD;
 
 
 .logo-footer {
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-    margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
+     display: inline-block;
 }
 
 
