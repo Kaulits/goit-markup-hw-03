@@ -469,10 +469,7 @@ color: #F4F4FD;
 }
 
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .footer-text {
     max-width: 264px;
