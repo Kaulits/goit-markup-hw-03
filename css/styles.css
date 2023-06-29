@@ -94,10 +94,9 @@ body {
 }
 
 .header-container {
-    display: flex;
+    display: flex;;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 }
 
 .logo {
@@ -122,11 +121,13 @@ body {
 .nav-list {
     display: flex;
     gap: 40px;
+  
 }
 
 .contact-list {
     display: flex;
     gap: 40px;
+   
 
 }
 
